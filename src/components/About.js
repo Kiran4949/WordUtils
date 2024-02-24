@@ -1,13 +1,10 @@
-
-
 export default function About(props) {
     let myStyle = {
         color: props.mode === 'dark'?'white':'#042743',
         backgroundColor: props.mode === 'dark'?'#042743':'white'
     }
 
-
-  return (
+    return (
         <div className="container" style={myStyle} >
             <h1 className="my-3"> About US </h1>
             <div className="accordion" id="accordionExample">
@@ -49,5 +46,5 @@ export default function About(props) {
                 </div>
             </div>
         </div>
-  )
+    )
 }

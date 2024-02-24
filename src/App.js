@@ -1,20 +1,15 @@
-
 import { useState } from 'react';
 import './App.css';
 import Alert from './components/Alert';
  import About from './components/About';
 import Navbar from './components/Navbar';
 import TextForm from './components/TextForm';
-
 import React from "react";
 import {
   BrowserRouter as Router,
   Routes,
   Route
 } from "react-router-dom";
-
-
-
 
 
 function App() {
