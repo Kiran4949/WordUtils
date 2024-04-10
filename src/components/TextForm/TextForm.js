@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import './CustomButton.css';
+import './style.css';
 
 export default function TextForm(props) {
   const [text, setText] = useState("");
